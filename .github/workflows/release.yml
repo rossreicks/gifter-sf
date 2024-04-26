@@ -17,12 +17,12 @@ jobs:
               run: |
                   yarn install
 
-                  - name: "Install Salesforce CLI"
-                  run: |
-                      npm install @salesforce/cli --location=global
-                      nodeInstallPath=$(npm config get prefix)
-                      echo "$nodeInstallPath/bin" >> $GITHUB_PATH
-                      sf --version
+            - name: "Install Salesforce CLI"
+              run: |
+                  npm install @salesforce/cli --location=global
+                  nodeInstallPath=$(npm config get prefix)
+                  echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+                  sf --version
 
             - name: "Populate auth file with DEVHUB_SFDX_URL secret"
               run: echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt
