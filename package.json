@@ -8,16 +8,6 @@
     },
     "author": "Ross Reicks",
     "license": "ISC",
-    "release": {
-        "branches": [
-            "main"
-        ],
-        "plugins": [
-            "semantic-release-sfdx",
-            "@semantic-release/github",
-            "@semantic-release/git"
-        ]
-    },
     "devDependencies": {
         "@commitlint/cli": "^19.3.0",
         "@commitlint/config-conventional": "^19.2.2",
