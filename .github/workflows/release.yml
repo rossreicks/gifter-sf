@@ -39,4 +39,4 @@ jobs:
                   npx semantic-release
 
             - name: "Create Package Version"
-              run: sf package version create --name "GIFter" -x -c -w 50 -f config/project-scratch-def.json
+              run: sf package version create --package "GIFter" -x -c -w 50 -f config/project-scratch-def.json
