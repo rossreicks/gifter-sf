@@ -1,0 +1,33 @@
+{
+    "name": "gifter",
+    "version": "1.0.0",
+    "description": "The GIF-to-Chatter app for Lightning Platform you didn't know you needed!",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+        "prepare": "husky"
+    },
+    "author": "Ross Reicks",
+    "license": "ISC",
+    "release": {
+        "plugins": [
+            "semantic-release-sfdx"
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@prettier/plugin-xml": "^3.4.1",
+        "husky": "^9.0.11",
+        "lint-staged": "^15.2.2",
+        "prettier": "^3.2.5",
+        "prettier-plugin-apex": "^2.1.2",
+        "semantic-release": "^23.0.8",
+        "semantic-release-sfdx": "^1.0.1"
+    },
+    "lint-staged": {
+        "*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
+            "prettier --write"
+        ]
+    }
+}
