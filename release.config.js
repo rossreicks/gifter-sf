@@ -26,6 +26,7 @@ module.exports = {
                     { type: "chore", release: "patch" }
                 ]
             }
-        ]
+        ],
+        ["@semantic-release/github", {}]
     ]
 };
