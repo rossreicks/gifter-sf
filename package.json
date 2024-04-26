@@ -4,8 +4,7 @@
     "description": "The GIF-to-Chatter app for Lightning Platform you didn't know you needed!",
     "main": "index.js",
     "scripts": {
-        "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
-        "prepare": "husky"
+        "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\""
     },
     "author": "Ross Reicks",
     "license": "ISC",
