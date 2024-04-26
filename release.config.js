@@ -2,7 +2,14 @@ module.exports = {
     branches: ["main"],
     plugins: [
         "semantic-release-sfdx",
-        "@semantic-release/git",
+        [
+            "@semantic-release/git",
+            {
+                assets: ["docs", "package.json", "sfdx-project.json"],
+                message:
+                    "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ],
         "@semantic-release/release-notes-generator",
         [
             "@semantic-release/commit-analyzer",
