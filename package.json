@@ -10,6 +10,9 @@
     "author": "Ross Reicks",
     "license": "ISC",
     "release": {
+        "branches": [
+            "main"
+        ],
         "plugins": [
             "semantic-release-sfdx",
             "@semantic-release/github",
