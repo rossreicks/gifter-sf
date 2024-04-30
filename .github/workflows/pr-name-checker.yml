@@ -15,5 +15,5 @@ jobs:
             - uses: cakeinpanic/jira-description-action@master
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
-                  jira-token: ${{ secrets.JIRA_AUTH }}
+                  jira-token: ${{ secrets.JIRA_TOKEN }}
                   jira-base-url: "https://tractorzoom.atlassian.net"
