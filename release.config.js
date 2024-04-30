@@ -59,7 +59,12 @@ module.exports = {
         [
             "@semantic-release/git",
             {
-                assets: ["docs", "package.json", "sfdx-project.json"],
+                assets: [
+                    "docs",
+                    "package.json",
+                    "sfdx-project.json",
+                    "README.md"
+                ],
                 message:
                     "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
