@@ -1,7 +1,6 @@
-on:
-    push:
-        branches:
-            - main
+name: Draft a new Release
+
+on: workflow_dispatch
 
 jobs:
     release:

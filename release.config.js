@@ -64,7 +64,8 @@ module.exports = {
                     "docs",
                     "package.json",
                     "sfdx-project.json",
-                    "README.md"
+                    "README.md",
+                    "CHANGELOG.md"
                 ],
                 message:
                     "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
