@@ -50,7 +50,7 @@ module.exports = {
                         },
                         {
                             type: "chore",
-                            hidden: false
+                            hidden: true
                         }
                     ]
                 }
@@ -82,6 +82,21 @@ module.exports = {
                 ]
             }
         ],
-        ["@semantic-release/github", {}]
+        [
+            "@semantic-release/github",
+            {
+                draftRelease: true
+            }
+        ],
+        [
+            "semantic-release-jira-releases",
+            {
+                projectId: "ENG",
+                releaseNameTemplate: "Delete ME v${version}",
+                jiraHost: "tractorzoom.atlassian.net",
+                ticketPrefixes: ["ENG"],
+                released: false
+            }
+        ]
     ]
 };
