@@ -94,6 +94,25 @@ module.exports = {
             }
         ],
         [
+            "semantic-release-jira-notes",
+            {
+                jiraHost: "tractorzoom.atlassian.net",
+                preset: "conventionalcommits",
+                presetConfig: {
+                    types: [
+                        { type: "feat", section: "Features" },
+                        { type: "fix", section: "Bug Fixes" },
+                        {
+                            type: "build",
+                            section: "Dependencies Updates",
+                            hidden: false
+                        }
+                    ]
+                },
+                ticketPrefixes: ["ENG", "AP2"]
+            }
+        ],
+        [
             "semantic-release-jira-releases",
             {
                 projectId: "ENG",
