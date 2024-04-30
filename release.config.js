@@ -2,6 +2,7 @@ module.exports = {
     branches: ["main"],
     plugins: [
         "semantic-release-sfdx",
+        "@semantic-release/changelog",
         [
             "@semantic-release/release-notes-generator",
             {
