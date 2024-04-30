@@ -1,0 +1,14 @@
+{
+    "LABEL": {
+        "name": "PR title format invalid",
+        "color": "da3633"
+    },
+    "CHECKS": {
+        "regexp": "^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test): \\([A-Z]{3,5}-\\d{3,5}\\) .*$"
+    },
+    "MESSAGES": {
+        "success": "PR title correctly linked to Jira Ticket",
+        "failure": "PR title format invalid",
+        "notice": ""
+    }
+}
