@@ -31,7 +31,7 @@ jobs:
             - name: "Authenticate Dev Hub"
               run: sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d
 
-            - name: Deploy
+            - name: Semantic Release
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
                   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -40,5 +40,5 @@ jobs:
               run: |
                   npx semantic-release
 
-            - name: "Create Package Version"
-              run: sf package version create --package "GIFter" -x -c -w 50 -f config/project-scratch-def.json
+            # - name: "Create Package Version"
+            #   run: sf package version create --package "GIFter" -x -c -w 50 -f config/project-scratch-def.json
