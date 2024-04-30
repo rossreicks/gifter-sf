@@ -1,8 +1,12 @@
-name: PR
+name: PR Name Checker
 on:
-    pull_request:
-        branches:
-            - main
+    pull_request_target:
+        types:
+            - opened
+            - edited
+            - synchronize
+            - labeled
+            - unlabeled
 
 jobs:
     check:
