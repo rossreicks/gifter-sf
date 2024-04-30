@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/rossreicks/gifter-sf/compare/v1.3.4...v1.3.5) (2024-04-30)
+
+
+### :memo: Documentation
+
+* ([ENG-398](https://tractorzoom.atlassian.net/browse/ENG-398)) remove duplicates ([#8](https://github.com/rossreicks/gifter-sf/issues/8)) ([3d9fd3d](https://github.com/rossreicks/gifter-sf/commit/3d9fd3d4ea6ae0c0c085aba29db5100f4fd8175f))
+
 ## [1.3.4](https://github.com/rossreicks/gifter-sf/compare/v1.3.3...v1.3.4) (2024-04-30)
 
 
