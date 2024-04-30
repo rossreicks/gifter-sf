@@ -1,9 +1,15 @@
-# GIFter
+# SFDX  App
 
-The GIF-to-Chatter app for Lightning Platform you didn't know you needed!
+| Name                | Id        | Package2 Id       | Subscriber Package2 Version Id    | Version        |
+| ------------------- | --------- | ----------------- | --------------------------------- | -------------- |
+| GIFter | 05iak0000000A0zAAE | 0Hoak00000005vlCAA | 04tak0000001CtZAAU | 1.3.0.0 |
 
-This repo is developed and maintained for the [Quick Start: Unlocked Packages](https://trailhead.salesforce.com/content/learn/projects/quick-start-unlocked-packages) Trailhead project.
 
-It was originally created by [Wade Wegner](https://github.com/wadewegner).
+Sandbox Install
 
-![image](images/gifter.png)
+Install Link: https://test.salesforce.com/packaging/installPackage.apexp?p0=04tak0000001CtZAAU
+
+Command Line
+`sfdx force:package:install --package 04tak0000001CtZAAU --targetusername <sandbox username>`
+
+
