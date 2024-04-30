@@ -1,3 +1,19 @@
+## [1.3.4](https://github.com/rossreicks/gifter-sf/compare/v1.3.3...v1.3.4) (2024-04-30)
+
+
+### :repeat: CI
+
+* (ENG-398) update change logs for jira ([#7](https://github.com/rossreicks/gifter-sf/issues/7)) ([2544599](https://github.com/rossreicks/gifter-sf/commit/2544599f73b1c6503f1b29afe23271a6940f4a4f))
+
+
+
+## [1.3.4](https://github.com/rossreicks/gifter-sf/compare/v1.3.3...v1.3.4) (2024-04-30)
+
+
+### :repeat: CI
+
+* ([ENG-398](https://tractorzoom.atlassian.net/browse/ENG-398)) update change logs for jira ([#7](https://github.com/rossreicks/gifter-sf/issues/7)) ([2544599](https://github.com/rossreicks/gifter-sf/commit/2544599f73b1c6503f1b29afe23271a6940f4a4f))
+
 ## [1.3.3](https://github.com/rossreicks/gifter-sf/compare/v1.3.2...v1.3.3) (2024-04-30)
 
 
