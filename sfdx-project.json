@@ -13,6 +13,7 @@
         }
     ],
     "packageAliases": {
-        "MultiPackagePOC": "0Hoak00000006lNCAQ"
+        "MultiPackagePOC": "0Hoak00000006lNCAQ",
+        "MultiPackagePOC@1.4.0-0": "04tak0000001HrdAAE"
     }
 }

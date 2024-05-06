@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/rossreicks/gifter-sf/compare/v1.3.5...v1.4.0) (2024-05-06)
+
+
+### :sparkles: New Features
+
+* add a new custom field to account ([d6378ba](https://github.com/rossreicks/gifter-sf/commit/d6378babc255cd1e3545bf656e5b8010029d3465))
+
 ## [1.3.5](https://github.com/rossreicks/gifter-sf/compare/v1.3.4...v1.3.5) (2024-04-30)
 
 
