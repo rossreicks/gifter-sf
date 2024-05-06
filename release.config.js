@@ -1,62 +1,13 @@
 module.exports = {
     branches: ["main"],
     plugins: [
-        // "semantic-release-sfdx",
         "@semantic-release/changelog",
-        // [
-        //     "@semantic-release/release-notes-generator",
-        //     {
-        //         preset: "conventionalcommits",
-        //         presetConfig: {
-        //             types: [
-        //                 {
-        //                     type: "feat",
-        //                     section: ":sparkles: New Features",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "fix",
-        //                     section: ":bug: Fixes",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "docs",
-        //                     section: ":memo: Documentation",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "style",
-        //                     section: ":barber: Style Changes",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "refactor",
-        //                     section: ":zap: Refactoring",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "perf",
-        //                     section: ":fast_forward: Performance Improvements",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "test",
-        //                     section: ":white_check_mark: Tests",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "ci",
-        //                     section: ":repeat: CI",
-        //                     hidden: false
-        //                 },
-        //                 {
-        //                     type: "chore",
-        //                     hidden: true
-        //                 }
-        //             ]
-        //         }
-        //     }
-        // ],
+        [
+            "semantic-release-sfdx2",
+            {
+                codecoverage: true
+            }
+        ],
         [
             "@semantic-release/git",
             {
@@ -149,16 +100,6 @@ module.exports = {
                     ]
                 },
                 ticketPrefixes: ["ENG", "AP2"]
-            }
-        ],
-        [
-            "semantic-release-jira-releases",
-            {
-                projectId: "ENG",
-                releaseNameTemplate: "GIFter v${version}",
-                jiraHost: "tractorzoom.atlassian.net",
-                ticketPrefixes: ["ENG", "AP2"],
-                released: true
             }
         ]
     ]

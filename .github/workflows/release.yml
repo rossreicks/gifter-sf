@@ -1,6 +1,9 @@
 name: Draft a new Release
 
-on: workflow_dispatch
+on:
+    push:
+        branches:
+            - main
 
 jobs:
     release:
@@ -18,18 +21,18 @@ jobs:
               run: |
                   yarn install
 
-            # - name: "Install Salesforce CLI"
-            #   run: |
-            #       npm install @salesforce/cli --location=global
-            #       nodeInstallPath=$(npm config get prefix)
-            #       echo "$nodeInstallPath/bin" >> $GITHUB_PATH
-            #       sf --version
+            - name: "Install Salesforce CLI"
+              run: |
+                  npm install @salesforce/cli --location=global
+                  nodeInstallPath=$(npm config get prefix)
+                  echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+                  sf --version
 
-            # - name: "Populate auth file with DEVHUB_SFDX_URL secret"
-            #   run: echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt
+            - name: "Populate auth file with DEVHUB_SFDX_URL secret"
+              run: echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt
 
-            # - name: "Authenticate Dev Hub"
-            #   run: sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d
+            - name: "Authenticate Dev Hub"
+              run: sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d
 
             - name: Semantic Release
               env:
@@ -39,6 +42,3 @@ jobs:
                   HUSKY: 0
               run: |
                   npx semantic-release
-
-            # - name: "Create Package Version"
-            #   run: sf package version create --package "GIFter" -x -c -w 50 -f config/project-scratch-def.json

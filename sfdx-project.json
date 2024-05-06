@@ -1,17 +1,17 @@
 {
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
     "packageDirectories": [
         {
             "path": "force-app",
             "default": true,
             "package": "GIFter",
-            "versionName": "My First Release",
-            "versionNumber": "1.2.0.NEXT",
+            "versionNumber": "1.3.2.NEXT",
+            "ancestorVersion": "HIGHEST",
             "versionDescription": ""
         }
     ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0",
     "packageAliases": {
         "GIFter": "0Hoak00000005vlCAA",
         "GIFter@1.0.0-1": "04tak00000017DxAAI",
