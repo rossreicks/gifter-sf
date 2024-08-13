@@ -44,7 +44,13 @@ module.exports = {
             "@semantic-release/github",
             {
                 draftRelease: false,
-                assets: [{ path: "sfdx-project.json", label: "Package Info" }]
+                assets: [
+                    { path: "sfdx-project.json", label: "Package Info" },
+                    {
+                        path: "install.html",
+                        label: "Click Me To Install"
+                    }
+                ]
             }
         ],
         [

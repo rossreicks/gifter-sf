@@ -8265,10 +8265,10 @@ semantic-release-jira-releases@^0.7.2:
     p-limit "^2.2.2"
     tslib "^1.11.1"
 
-semantic-release-sfdx2@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-sfdx2/-/semantic-release-sfdx2-1.0.0.tgz#bb39887fa261db58e4042cf89a365a163c4a2c88"
-  integrity sha512-eSYtkJhxeMjS5A/C+w5g62A3fo+/Xz1Om0pcfL6LXvgEAjDqa71B8HdtGMvYocYXq8XcmIsNbLx3IlSbUU7HlA==
+semantic-release-sfdx2@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-sfdx2/-/semantic-release-sfdx2-1.6.0.tgz#20ed29b7883fd56429bb19703639512eabf87f80"
+  integrity sha512-HbLwS9sWt8HFoPhsngehV2zE5lZaASAXdu0ID+uzLpSizCvwXk0OnZAqrXNzOm9hnsv4sTjTLpD3NV7jSFnFMQ==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     lodash.find "^4.6.0"

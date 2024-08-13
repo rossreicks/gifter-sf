@@ -21,7 +21,7 @@
         "semantic-release": "^23.0.8",
         "semantic-release-jira-notes": "^3.0.0",
         "semantic-release-jira-releases": "^0.7.2",
-        "semantic-release-sfdx2": "^1.0.0"
+        "semantic-release-sfdx2": "1.6.0"
     },
     "lint-staged": {
         "*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
