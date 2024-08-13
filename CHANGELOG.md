@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/rossreicks/gifter-sf/compare/v1.4.0...v1.5.0) (2024-08-13)
+
+
+### :sparkles: New Features
+
+* add github asset ([d0df691](https://github.com/rossreicks/gifter-sf/commit/d0df691bd018198b7e7a2f43b217d325cdba69ae))
+
 ## [1.4.0](https://github.com/rossreicks/gifter-sf/compare/v1.3.5...v1.4.0) (2024-05-06)
 
 
