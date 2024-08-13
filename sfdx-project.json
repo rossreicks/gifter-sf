@@ -1,20 +1,21 @@
 {
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0",
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "package": "MultiPackagePOC",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": true,
-            "versionDescription": ""
-        }
-    ],
-    "packageAliases": {
-        "MultiPackagePOC": "0Hoak00000006lNCAQ",
-        "MultiPackagePOC@1.4.0-0": "04tak0000001HrdAAE",
-        "MultiPackagePOC@1.5.0-0": "04tak0000002qybAAA"
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "package": "MultiPackagePOC",
+      "versionName": "ver 0.1",
+      "versionNumber": "1.6.0.NEXT",
+      "default": true,
+      "versionDescription": ""
     }
+  ],
+  "packageAliases": {
+    "MultiPackagePOC": "0Hoak00000006lNCAQ",
+    "MultiPackagePOC@1.4.0-0": "04tak0000001HrdAAE",
+    "MultiPackagePOC@1.5.0-0": "04tak0000002qybAAA",
+    "MultiPackagePOC@1.6.0-0": "04tak0000002r9tAAA"
+  }
 }

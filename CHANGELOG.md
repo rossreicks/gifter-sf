@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/rossreicks/gifter-sf/compare/v1.5.0...v1.6.0) (2024-08-13)
+
+
+### :sparkles: New Features
+
+* add link to install ([7ccd38d](https://github.com/rossreicks/gifter-sf/commit/7ccd38d09b5a3fa41fbcf1a90a97228bc2f7bad2))
+
 ## [1.5.0](https://github.com/rossreicks/gifter-sf/compare/v1.4.0...v1.5.0) (2024-08-13)
 
 
