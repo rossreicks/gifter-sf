@@ -7,7 +7,7 @@
       "path": "force-app",
       "package": "MultiPackagePOC",
       "versionName": "ver 0.1",
-      "versionNumber": "1.6.0.NEXT",
+      "versionNumber": "1.7.0.NEXT",
       "default": true,
       "versionDescription": ""
     }
@@ -16,6 +16,7 @@
     "MultiPackagePOC": "0Hoak00000006lNCAQ",
     "MultiPackagePOC@1.4.0-0": "04tak0000001HrdAAE",
     "MultiPackagePOC@1.5.0-0": "04tak0000002qybAAA",
-    "MultiPackagePOC@1.6.0-0": "04tak0000002r9tAAA"
+    "MultiPackagePOC@1.6.0-0": "04tak0000002r9tAAA",
+    "MultiPackagePOC@1.7.0-0": "04tak0000002rD7AAI"
   }
 }

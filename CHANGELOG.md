@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/rossreicks/gifter-sf/compare/v1.6.0...v1.7.0) (2024-08-13)
+
+
+### :sparkles: New Features
+
+* add releases ([4f7ab6f](https://github.com/rossreicks/gifter-sf/commit/4f7ab6fc38a8e60bb110c3d65cf897662c2c815b))
+
 ## [1.6.0](https://github.com/rossreicks/gifter-sf/compare/v1.5.0...v1.6.0) (2024-08-13)
 
 
